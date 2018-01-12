@@ -42,6 +42,7 @@ GEM
     ast (2.3.0)
     autoprefixer-rails (7.2.4)
       execjs
+    awesome_print (1.8.0)
     bindex (0.5.0)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -211,6 +212,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   bootstrap-sass
   byebug
   coffee-rails (~> 4.2)
