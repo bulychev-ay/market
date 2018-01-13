@@ -21,6 +21,9 @@ gem "uglifier", ">= 1.3.0"
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# гем для наполнения базы данными
+gem 'seed-fu', "~> 2.3.0"
+
 gem "bootstrap-sass"
 gem "haml"
 gem "haml-rails"
