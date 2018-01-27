@@ -24,6 +24,12 @@ gem "uglifier", ">= 1.3.0"
 # гем для наполнения базы данными
 gem 'seed-fu', "~> 2.3.0"
 
+gem 'builder'
+
+gem 'prawn'
+
+gem 'roo'
+
 gem "bootstrap-sass"
 gem "haml"
 gem "haml-rails"

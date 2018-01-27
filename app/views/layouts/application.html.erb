@@ -9,7 +9,16 @@
   </head>
 
   <body>
+
     <%= render 'layouts/navbar' %>
-    <%= yield %>
+
+    <div class="col-md-2 col-lg-1">
+      <%= render 'layouts/menu' %>
+    </div>
+
+    <div class="col-md-10 col-lg-11">
+      <%= yield %>
+    </div>
+
   </body>
 </html>

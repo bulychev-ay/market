@@ -1,9 +1,9 @@
 .thumbnail.col-lg-2.col-md-5.col-sm-6.col-xs-12
-  %img{:src => "https://www.groupon.com/merchant/wp-content/uploads/2015/11/goods-pod-entertainment@2x.jpg", :alt => "#"}
+  %img{:src => product.photo, :alt => product.name, :style => 'height: 200px'}
   .caption
-    %h3= "Product name"
-    %p= "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века."
-    %h4= "Price"
+    %h3= product.name
+    %p= product.description
+    %h4= 'price'
     %p
       %a.btn.btn-info{"href" => "#", "role" => "button"}= "Подробно"
       %a.btn.btn-warning{"href" => "#", "role" => "button"}= "В корзину"
